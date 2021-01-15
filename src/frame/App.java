@@ -146,9 +146,7 @@ public class App extends javax.swing.JFrame implements WindowListener {
             }
         });
 
-        nim.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
-        nim.setForeground(new java.awt.Color(193, 193, 193));
-        nim.setText("Masukkan NIM");
+        nim.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
         nim.setToolTipText("Masukkan NIM ");
         nim.setMargin(new java.awt.Insets(3, 3, 3, 3));
         nim.setMinimumSize(new java.awt.Dimension(20, 30));
@@ -169,12 +167,14 @@ public class App extends javax.swing.JFrame implements WindowListener {
         jLabel2.setText("Nama Mahasiswa");
 
         namaMahasiswa.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        namaMahasiswa.setToolTipText("Masukkan Nama Mahasiswa");
         namaMahasiswa.setMargin(new java.awt.Insets(3, 3, 3, 3));
         namaMahasiswa.setMinimumSize(new java.awt.Dimension(20, 30));
         namaMahasiswa.setName(""); // NOI18N
         namaMahasiswa.setPreferredSize(new java.awt.Dimension(20, 30));
 
         jurusan.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        jurusan.setToolTipText("Masukkan Jurusan");
         jurusan.setMargin(new java.awt.Insets(3, 3, 3, 3));
         jurusan.setMinimumSize(new java.awt.Dimension(20, 30));
         jurusan.setName(""); // NOI18N
@@ -185,6 +185,7 @@ public class App extends javax.swing.JFrame implements WindowListener {
         jLabel3.setText("Jurusan");
 
         judulTa.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        judulTa.setToolTipText("Masukkan Judul TA");
         judulTa.setMargin(new java.awt.Insets(3, 3, 3, 3));
         judulTa.setMinimumSize(new java.awt.Dimension(20, 30));
         judulTa.setName(""); // NOI18N
@@ -199,6 +200,7 @@ public class App extends javax.swing.JFrame implements WindowListener {
         jLabel5.setText("Dosen Pembimbing");
 
         dosenPembimbing.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        dosenPembimbing.setToolTipText("Masukkan Nama Dosen Pembimbing");
         dosenPembimbing.setMargin(new java.awt.Insets(3, 3, 3, 3));
         dosenPembimbing.setMinimumSize(new java.awt.Dimension(20, 30));
         dosenPembimbing.setName(""); // NOI18N
@@ -209,6 +211,7 @@ public class App extends javax.swing.JFrame implements WindowListener {
         jLabel6.setText("Dosen Penguji 1");
 
         dosenPenguji2.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        dosenPenguji2.setToolTipText("Masukkan Nama Dosen Penguji 2");
         dosenPenguji2.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         dosenPenguji2.setMargin(new java.awt.Insets(3, 5, 3, 3));
         dosenPenguji2.setMinimumSize(new java.awt.Dimension(20, 30));
@@ -219,6 +222,7 @@ public class App extends javax.swing.JFrame implements WindowListener {
         jLabel7.setText("Dosen Penguji 2");
 
         dosenPenguji1.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
+        dosenPenguji1.setToolTipText("Masukkan Nama Dosen Penguji 1");
         dosenPenguji1.setMargin(new java.awt.Insets(3, 3, 3, 3));
         dosenPenguji1.setMinimumSize(new java.awt.Dimension(20, 30));
         dosenPenguji1.setName(""); // NOI18N

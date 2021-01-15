@@ -285,12 +285,8 @@
             <Component class="javax.swing.JTextField" name="nim">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="10" style="0"/>
+                  <Font name="Segoe UI" size="10" style="1"/>
                 </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="c1" green="c1" red="c1" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Masukkan NIM"/>
                 <Property name="toolTipText" type="java.lang.String" value="Masukkan NIM "/>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[3, 3, 3, 3]"/>
@@ -334,6 +330,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="10" style="0"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Masukkan Nama Mahasiswa"/>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[3, 3, 3, 3]"/>
                 </Property>
@@ -351,6 +348,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="10" style="0"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Masukkan Jurusan"/>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[3, 3, 3, 3]"/>
                 </Property>
@@ -379,6 +377,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="10" style="0"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Masukkan Judul TA"/>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[3, 3, 3, 3]"/>
                 </Property>
@@ -418,6 +417,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="10" style="0"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Masukkan Nama Dosen Pembimbing"/>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[3, 3, 3, 3]"/>
                 </Property>
@@ -446,6 +446,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="10" style="0"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Masukkan Nama Dosen Penguji 2"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Text Cursor"/>
                 </Property>
@@ -476,6 +477,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="10" style="0"/>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Masukkan Nama Dosen Penguji 1"/>
                 <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                   <Insets value="[3, 3, 3, 3]"/>
                 </Property>
