@@ -44,7 +44,6 @@ public class App extends javax.swing.JFrame implements WindowListener {
         
         jTable.getColumnModel().getColumn(0).setMaxWidth(45); // mengatur lebar maksimal kolom pertama
         jTable.setDefaultEditor(Object.class, null); // membuat tabel tidak dapat diedit langsung
-//        jTable.setUpdateSelectionOnSort(true);
         
         updateTable(); // isi tabel
         
